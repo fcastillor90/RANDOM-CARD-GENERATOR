@@ -15,29 +15,31 @@
 </head>
 
 <body>
-
-
-  <div class="mt-3 bg-danger container"> <strong>REFRESH ME!! AND TAKE YOUR NEW CARD!</strong></div>
-
-  <BR />
-  <button>2</button>
-  <!--Cuerpo de la Carta-->
-  <div class="yiyi">
-
-    <div>
-      <p id="top-corner" class="top-0 start-0 upper ">1</p>
+  <div class="container-fluid text-center mt-4">
+    <form action="#" id="form">
+      <input
+        type="text"
+        placeholder="Number of card"
+        name="inputCard"
+        id="inputCard"
+      />
+      <button id="drawButton">Draw</button>
+      <button id="sortButton">Sort</button>
+    </form>
+    <div class="row justify-content-center ">
+      <div class="col-10">
+        <div class="d-flex flex-wrap mt-5" id="hook">
+          <!-- render html-->
+        </div>
+      </div>
     </div>
-    <div>
-      <p id="card-number" class="position-absolute top-50 start-50 translate-middle center">2</p>
-    </div>
-    <div>
-      <p id="bottom-corner" class=" bottom-0 end-0 lower">3</p>
-    </div>
 
+    <div class="row justify-content-center ">
+      <div class="col-10" id="hook-sorted"></div>
+    </div>
   </div>
 
-
-  <!--Tipos de carta ♦ ♥ ♠ ♣-->
+    <!--Tipos de carta ♦ ♥ ♠ ♣-->
   <!--Parte baja-->
   <div class="fixed-bottom p-4">
     Made by
